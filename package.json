@@ -1,0 +1,29 @@
+{
+  "name": "la-hacks",
+  "version": "1.0.0",
+  "main": "./dist/index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node ./dist/index.js",
+    "gcp-build": "tsc"
+  },
+  "devDependencies": {
+    "@google-cloud/nodejs-repo-tools": "^3.2.0",
+    "@types/express": "^4.16.1",
+    "@types/fs-extra": "^5.0.5",
+    "@types/node": "^11.12.2",
+    "@types/node-fetch": "^2.1.7",
+    "@types/proj4": "^2.5.0",
+    "@types/shortid": "^0.0.29"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "fs-extra": "^7.0.1",
+    "node-fetch": "^2.3.0",
+    "proj4": "^2.5.0",
+    "shortid": "^2.2.14",
+    "source-map-support": "^0.5.11",
+    "typescript": "^3.4.1"
+  }
+}
